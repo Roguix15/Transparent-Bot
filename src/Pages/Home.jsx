@@ -1,7 +1,7 @@
 import React from 'react';
-import HeroSection from '../components/home/HeroSection';
-import FeaturesSection from '../components/home/FeaturesSection';
-import CTASection from '../components/home/CTASection';
+import HeroSection from '../Components/home/HeroSection';
+import FeaturesSection from '../Components/home/FeaturesSection';
+import CTASection from '../Components/home/CTASection';
 
 export default function Home() {
   return (
