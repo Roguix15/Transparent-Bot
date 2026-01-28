@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Button } from '@/Components/ui/Button';
+import { Button } from '@/Components/ui/button';
 import { Bot, ArrowRight, Rocket } from 'lucide-react';
 
 export default function CTASection() {
