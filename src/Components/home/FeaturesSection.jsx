@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import GlassCard from '@/components/ui/GlassCard';
+import GlassCard from '@/Components/ui/GlassCard';
 import { 
   Palette, RefreshCw, Sparkles, Film, 
   Type, Wrench, Zap, Heart 
