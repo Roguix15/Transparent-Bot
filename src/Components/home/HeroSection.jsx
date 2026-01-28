@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/Button';
 import { Sparkles, ArrowRight, Users, Command, Zap, Bot } from 'lucide-react';
 
 export default function HeroSection() {
