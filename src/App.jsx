@@ -1,5 +1,5 @@
-import Layout from '@/Layout'
-import Home from '@/Pages/Home'
+import Layout from './Layout'
+import Home from './Pages/Home'
 
 function App() {
   return (
