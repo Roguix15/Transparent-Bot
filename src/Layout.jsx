@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from './utils';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Button } from './components/ui/button';
+import { Button } from '@/components/ui/button';
 import { 
   Menu, X, Home, Terminal, FileText, 
   Shield, MessageCircle, Github, Bot, Info
@@ -232,4 +232,5 @@ export default function Layout({ children, currentPageName }) {
         </div>
       </footer>
     </div>
- 
+  );
+}
