@@ -1,0 +1,44 @@
+{
+  "name": "Command",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Command name"
+    },
+    "description": {
+      "type": "string",
+      "description": "Command description"
+    },
+    "usage": {
+      "type": "string",
+      "description": "Usage example"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "color_adjustments",
+        "transformations",
+        "visual_effects",
+        "animations",
+        "text_overlay",
+        "utilities",
+        "information"
+      ],
+      "description": "Command category"
+    },
+    "arguments": {
+      "type": "string",
+      "description": "Command arguments explanation"
+    },
+    "video_url": {
+      "type": "string",
+      "description": "Explanatory video URL"
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "category"
+  ]
+}
